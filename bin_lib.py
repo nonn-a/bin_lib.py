@@ -64,7 +64,7 @@ class Bin():
         if isinstance(other, list):
             other = Bin(other)
         return self.value < other
-    
+
     # Second order comparison functions.
     def __neq__(self, other: BinAlike):
         return not self.__eq__(other)
