@@ -42,7 +42,7 @@ def __init__(self, definition: BinAlike, length: int = -1):
 * `lenght`: maximum bit-wise lenght of a stored value. It has some nieche uses (see operations and comparisons).
 A few examples of **valid** Bin definitions:
 ```py
-bin1 = Bin(45) #Value: (101101)₂ = (45)₁₀
+bin1 = Bin(45) #Value: 101101, aka (45₁₀)₂
 bin2 = Bin([0, 0, 0, 1, 0, 1, 0, 0, 0]) #Value: 1011000
 bin3 = Bin([True, False, False, True]) #Value: 1001
 bin4 = Bin(2, lenght = 3) #Value: 10. This works because 2 occupies just 2 out of the 3 bits given.
