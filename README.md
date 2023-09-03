@@ -64,7 +64,7 @@ bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out o
  bits from a to b.  
 
 ### Operations and comparisons.
-**>** At the moment `Bin` objects can be added to other `BinAlike` objects.  
+**>** At the moment `Bin` objects can be added to other `BinAlike` objects.  
 The `lenght` of the addition result is the biggest of the addends' lenghts.  
 **>** `Bin` objects can be compared to other `BinAlike` objects.  
 Supported comparisons: `==, !=, <, <=, =>, >`.  
