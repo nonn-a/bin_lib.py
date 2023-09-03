@@ -1,9 +1,11 @@
 ![bin_lib](https://github.com/nonn-a/bin_lib.py/assets/86384221/20a255ce-ac62-4671-831c-516ff3e8c6a1)
-------------------------------------------------------------------------------
+
 # Bin_lib.py
 
 A minimal python library for binary numbers.
+
 ------------------------------------------------------------------------------
+
 ## Getting Started
 
 ### Dependencies
@@ -16,7 +18,9 @@ A minimal python library for binary numbers.
 * **Place** it in the same folder of your main code.
 * **Import** with `import "bin_lib.py"`.
 * **Done**.
+
 ------------------------------------------------------------------------------
+
 ## Defining a Bin variable.
 
 ### **Examples of definitions.**
