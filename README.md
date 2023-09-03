@@ -2,7 +2,10 @@
 
 # Bin_lib.py
 
+<p align="center">
 A minimal python library for binary numbers.  
+</p>
+
 
 ![gettingstarted](https://github.com/nonn-a/bin_lib.py/assets/86384221/71e402fd-b1c7-41ba-a788-536125636d01)
 
