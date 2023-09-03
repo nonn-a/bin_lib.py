@@ -35,7 +35,7 @@ These objects include: `Bin`s, `int`s, `list`s and can be added to, compared to 
 
 ### `Bin`'s constructor:
 ```py
-def __init__(self, definition: BinAlike, length: int = -1):
+def __init__(self, definition: BinAlike, length: int = -1): [···]
 ```
 
 ### **Artificial lenght**
