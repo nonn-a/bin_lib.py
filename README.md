@@ -45,6 +45,7 @@ class Bin():
 
 A few examples of **valid** Bin definitions:
 ```py
+#Examples.
 bin1 = Bin(45) #Value: 101101, aka (45₁₀)₂
 bin2 = Bin([0, 0, 0, 1, 0, 1, 0, 0, 0]) #Value: 1011000
 bin3 = Bin([True, False, False, True]) #Value: 1001
@@ -52,7 +53,17 @@ bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out o
 ```
 \***p.s.** Some other definitions are valid but strongly unsuggested for readability purposes. When defining `Bins` with `list`s, everything that gets evaluated to be a `True` value gets interpreted as a `1` and everything that gets evaluated to be a `False` value gets interpreted as a `0`.
 
-### **Artificial lenght**
-This can be used to solve some nieche problems.  
-You can make your Bin numbers have a maximum lenght.  
-For example, `Bin(64, 2)` will give an `OverflowError`, as `64` doesn't fit in `2` bits.
+### Modules.
+`Bin`'s class offers a single non-standard module:
+```py
+        [···]
+        get_bit(self, a: int, b: int = -1):
+            [···]
+```
+**>** `get_bit`Returns bits **as a list** from index a to b. If b is -1, only the bit at index a is returned. If b is provided, it returns a list of bits from a to b.  
+
+### Operations and comparisons.
+**>** At the moment `Bin` objects can be added to other `BinAlike` objects.  
+The `lenght` of the addition result is the biggest of the addends' lenghts.  
+**>** `Bin` objects can be compared to other `BinAlike` objects.  
+Supported comparisons: `==, !=, <, <=, =>, >`.  
