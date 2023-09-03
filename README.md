@@ -22,19 +22,15 @@ A minimal python library for binary numbers.
 ![technicalities](https://github.com/nonn-a/bin_lib.py/assets/86384221/f84e4219-5da6-4786-948d-60babe45ecf7)
 
 <p align="center">
-<strong>Documentation.</strong>  
-Complete explaination of the code.
+<strong>Documentation.</strong> Complete explaination of the code.
 </p>
 
-## Defining a Bin variable.
+## What does 'bin_lib.py' introduce?
 
-### **Examples of definitions.**
-
-| Definition                 | Output        |
-| -------------------------- | ------------- |
-| `Bin(6)`                   | 110           |
-| `Bin([1, 1, 0])`           | 110           |
-| `Bin([True, True, False])` | 110           |
+It introduces two objects:
+* `BinAlike`, an alias for every objec that has similar properties to `Bin` numbers.  
+`BinAlike` objects include: `Bin`s, `int`s, `list`s. These can be added and compared to `bin` objects.
+* `Bin` class.
 
 ### **Operations and comparisons**
 `Bin` objects can be added and compared to other `Bin`, `int` or appropriate `list` objects.  
