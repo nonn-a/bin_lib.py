@@ -35,8 +35,9 @@ These objects include: `Bin`s, `int`s, `list`s and can be added to, compared to 
 
 ### `Bin`'s constructor:
 ```py
-def __init__(self, definition: BinAlike, length: int = -1):
-    [···]
+class Bin():
+    def __init__(self, definition: BinAlike, length: int = -1):
+        [···]
 ```
 * `definition`: needs to be a `BinAlike` value. It is what gets turned into its binary representation.  
 * `lenght`: maximum bit-wise lenght of a stored value. It has some nieche uses (see operations and comparisons).
