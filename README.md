@@ -34,7 +34,7 @@ These objects include: `Bin`s, `int`s, `list`s and can be added to, compared to 
 * `Bin`: main feature, a class used to store and interact with **binary data**.
 
 ### `Bin`'s constructor:
-```
+```py
 def __init__(self, definition: BinAlike, length: int = -1):
 ```
 
