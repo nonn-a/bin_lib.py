@@ -7,14 +7,14 @@ A minimal python library for binary numbers.
 
 ![gettingstarted](https://github.com/nonn-a/bin_lib.py/assets/86384221/71e402fd-b1c7-41ba-a788-536125636d01)
 
-<p align="center">
-**Dependencies**
-<\p>
+<p align="center" fontweight="bold">
+Dependencies
+</p>
 * Python 3.
 
 <p align="center">
-**Installing**
-<\p>
+Installing
+</p>
 
 * **Download** the file `bin_lib.py`
 * **Place** it in the same folder of your main code.
