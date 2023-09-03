@@ -46,9 +46,9 @@ A few examples of **valid** Bin definitions:
 bin1 = Bin(45) #Value: 101101, aka (45₁₀)₂
 bin2 = Bin([0, 0, 0, 1, 0, 1, 0, 0, 0]) #Value: 1011000
 bin3 = Bin([True, False, False, True]) #Value: 1001
-bin4 = Bin(2, lenght = 3) #Value: 10. This works because 2 occupies just 2 out of the 3 bits given.
+bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out of the 3 (maximum, 3rd included) bits given.
 ```
-\* Some other definitions are valid but strongly unsuggested for readability purposes. Everything that gets evaluated to be a `True` value gets interpreted as a `1` and everything that gets evaluated to be a `False` value gets interpreted as a `0`.
+\*p.s. Some other definitions are valid but strongly unsuggested for readability purposes. When defining `Bins` with `list`s, everything that gets evaluated to be a `True` value gets interpreted as a `1` and everything that gets evaluated to be a `False` value gets interpreted as a `0`.
 
 ### **Artificial lenght**
 This can be used to solve some nieche problems.  
