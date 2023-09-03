@@ -13,7 +13,7 @@ A minimal python library for binary data.
 </p>
 
 No specific installation is required for **bin_lib.py**. You can use it by importing it directly into your Python scripts or projects:
-* **Download** the file `bin_lib.py`
+**>** **Download** the file `bin_lib.py`
 * **Place** it in the same folder of your main code.
 * **Import** with `import "bin_lib.py"`.
 * **Done**.
