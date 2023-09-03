@@ -1,4 +1,4 @@
-![Banner](https://github.com/nonn-a/bin_lib.py/assets/86384221/59969618-6c45-47cc-962f-ce9b8b635188)
+![binlib](https://github.com/nonn-a/bin_lib.py/assets/86384221/a3784e9d-9359-4039-94f9-9f12d15a8391)
 
 # Bin_lib.py
 
