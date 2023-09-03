@@ -1,8 +1,7 @@
 ![binlib](https://github.com/nonn-a/bin_lib.py/assets/86384221/a3784e9d-9359-4039-94f9-9f12d15a8391)
-
+<p align="center">
 # Bin_lib.py
 
-<p align="center">
 A minimal python library for binary numbers.  
 </p>
 
