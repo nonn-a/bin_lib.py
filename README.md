@@ -12,7 +12,8 @@ A minimal python library for binary data.
 <strong>Installing.</strong>
 </p>
 
-No specific installation is required for **bin_lib.py**. You can use it by importing it directly into your Python scripts or projects:  
+No specific installation is required for **bin_lib.py**. You can use it by importing it directly into your Python scripts or projects:
+
 **>** **Download** the file `bin_lib.py`.  
 **>** **Place** it in the same folder of your main code.  
 **>** **Import** with `import "bin_lib.py"`.  
@@ -28,10 +29,10 @@ No specific installation is required for **bin_lib.py**. You can use it by impor
 
 ## What does 'bin_lib.py' introduce?
 
-It introduces two minimal features:
-* `BinAlike`: an alias that represents objects that have similar properties to `Bin` numbers.  
-These objects include: `Bin`s, `int`s, `list`s and can be added to, compared to and used to define objects from the `Bin` class.
-* `Bin`: main feature, a class used to store and interact with **binary data**.
+It introduces two minimal features:  
+**>** `BinAlike`: an alias that represents objects that have similar properties to `Bin` numbers.  
+These objects include: `Bin`s, `int`s, `list`s and can be added to, compared to and used to define objects from the `Bin` class.  
+**>** `Bin`: main feature, a class used to store and interact with **binary data**.
 
 ### `Bin`'s constructor:
 ```py
@@ -39,8 +40,9 @@ class Bin():
     def __init__(self, definition: BinAlike, length: int = -1):
         [···]
 ```
-* `definition`: needs to be a `BinAlike` value. It is what gets turned into its binary representation.  
-* `lenght`: maximum bit-wise lenght of a stored value. It has some nieche uses (see operations and comparisons).
+**>** `definition`: needs to be a `BinAlike` value. It is what gets turned into its binary representation.  
+**>** `lenght`: maximum bit-wise lenght of a stored value. It has some nieche uses (see operations and comparisons).
+
 A few examples of **valid** Bin definitions:
 ```py
 bin1 = Bin(45) #Value: 101101, aka (45₁₀)₂
@@ -48,7 +50,7 @@ bin2 = Bin([0, 0, 0, 1, 0, 1, 0, 0, 0]) #Value: 1011000
 bin3 = Bin([True, False, False, True]) #Value: 1001
 bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out of the 3 (maximum, 3rd included) bits given.
 ```
-\*p.s. Some other definitions are valid but strongly unsuggested for readability purposes. When defining `Bins` with `list`s, everything that gets evaluated to be a `True` value gets interpreted as a `1` and everything that gets evaluated to be a `False` value gets interpreted as a `0`.
+\***p.s.** Some other definitions are valid but strongly unsuggested for readability purposes. When defining `Bins` with `list`s, everything that gets evaluated to be a `True` value gets interpreted as a `1` and everything that gets evaluated to be a `False` value gets interpreted as a `0`.
 
 ### **Artificial lenght**
 This can be used to solve some nieche problems.  
