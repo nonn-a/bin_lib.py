@@ -34,4 +34,4 @@ Any comparison works fine (`<, <= , ==, =>, >, !=`).
 ### **Artificial lenght**
 This can be used to solve some nieche problems.  
 You can make your Bin numbers have a maximum lenght.  
-For example, `Bin(64, 2)` will give an `OverflowError` because 64 doesn't fit in `2` bits.
+For example, `Bin(64, 2)` will give an `OverflowError`, as `64` doesn't fit in `2` bits.
