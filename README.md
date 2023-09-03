@@ -6,7 +6,7 @@ A minimal python library for binary data.
 
 ---
 
-![gettingstarted](https://github.com/nonn-a/bin_lib.py/assets/86384221/71e402fd-b1c7-41ba-a788-536125636d01)
+![gettingstarted](https://github.com/nonn-a/bin_lib.py/assets/86384221/d5f550a1-a55f-4ae6-b1a3-e46d09438bfb)
 
 <p align="center">
 <strong>Installing.</strong>
@@ -21,7 +21,7 @@ No specific installation is required for **bin_lib.py**. You can use it by impor
 
 ---
 
-![technicalities](https://github.com/nonn-a/bin_lib.py/assets/86384221/f84e4219-5da6-4786-948d-60babe45ecf7)
+![technicalities](https://github.com/nonn-a/bin_lib.py/assets/86384221/6ecd37d2-9525-4463-8859-260d029160f1)
 
 <p align="center">
 <strong>Documentation.</strong> Complete explaination of the code.
@@ -61,7 +61,7 @@ bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out o
             [···]
 ```
 **>** `get_bit` returns bits as a list from index a to b. If b is -1, only the bit at index a is returned. If b is provided, it returns a list of  
- bits from a to b.  
+ bits from a to b.
 
 ### Operations and comparisons.
 **>** At the moment `Bin` objects can be added to other `BinAlike` objects.  
@@ -69,7 +69,12 @@ The `lenght` of the addition result is the biggest of the addends' lenghts.
 **>** `Bin` objects can be compared to other `BinAlike` objects.  
 Supported comparisons: `==, !=, <, <=, =>, >`.  
 
-### Conclusion.
-Feel free to explore the capabilities of the `Bin` class and integrate it into your projects as needed. Should you have any questions or encounter issues, refer to the provided documentation and MIT License for usage terms. Support this project by contributing to its development.
+![contribute](https://github.com/nonn-a/bin_lib.py/assets/86384221/4efad539-4058-46ef-9e72-a43012ae4e9b)
 
-**Happy coding with binary data using bin_lib.py!**
+<p align="center">
+<strong>Conclusion.</strong> Contribution info and such.
+</p>
+
+Feel free to explore the capabilities of the library and integrate it into your projects as needed. Should you have any questions or encounter issues, refer to the provided documentation and MIT License for usage terms. Support this project by contributing to its development.
+
+Happy coding with binary data using bin_lib.py!
