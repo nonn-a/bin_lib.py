@@ -46,7 +46,7 @@ class Bin():
 A few examples of **valid** Bin definitions:
 ```py
 #Examples.
-bin1 = Bin(45) #Value: 101101, aka (45₁₀)₂
+bin1 = Bin(45) #Value: 101101, the value of 45 converted to binary.
 bin2 = Bin([0, 0, 0, 1, 0, 1, 0, 0, 0]) #Value: 1011000
 bin3 = Bin([True, False, False, True]) #Value: 1001
 bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out of the 3 (maximum, 3rd included) bits given.
@@ -68,6 +68,17 @@ bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out o
 The `lenght` of the addition result is the biggest of the addends' lenghts.  
 **>** `Bin` objects can be compared to other `BinAlike` objects.  
 Supported comparisons: `==, !=, <, <=, =>, >`.  
+
+### Small code example.
+```py
+import bin_lib.py #Importing the library
+
+bin_1, bin_2 = Bin(45), Bin([0, 1, 0, 1]) #Binary number definitions.
+if bin_2 < bin_1 < [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: #(Bin, Bin) and (Bin, list) comparisons.
+    print(bin_1 + bin_2)
+elif bin_2 < 99999999: #(Bin, int) comparison.
+    print(Bin([False]))
+```
 
 ![contribute](https://github.com/nonn-a/bin_lib.py/assets/86384221/4efad539-4058-46ef-9e72-a43012ae4e9b)
 
