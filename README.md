@@ -51,7 +51,7 @@ bin2 = Bin([0, 0, 0, 1, 0, 1, 0, 0, 0]) #Value: 1011000
 bin3 = Bin([True, False, False, True]) #Value: 1001
 bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out of the 3 (maximum, 3rd included) bits given.
 ```
-\***p.s.** Some other definitions are valid but strongly unsuggested for readability purposes. When defining `Bins` with `list`s, everything that gets evaluated to be a `True` value gets interpreted as a `1` and everything that gets evaluated to be a `False` value gets interpreted as a `0`.
+\***p.s.** Some other definitions are valid but strongly unsuggested for readability purposes. When defining `Bins` with `list`s, every element that gets evaluated to be a `True` value gets interpreted as a `1` and everything that gets evaluated to be a `False` value gets interpreted as a `0`.
 
 ### Modules.
 `Bin`'s class offers a single non-standard module:
