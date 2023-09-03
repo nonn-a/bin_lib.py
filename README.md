@@ -16,7 +16,7 @@ A minimal python library for binary numbers.
 * **Place** it in the same folder of your main code.
 * **Import** with `import "bin_lib.py"`.
 * **Done**.
-------------------------------------------------------------------------------
+
 ## Defining a Bin variable.
 
 ### **Examples of definitions.**
