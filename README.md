@@ -1,18 +1,20 @@
 ![binlib](https://github.com/nonn-a/bin_lib.py/assets/86384221/a3784e9d-9359-4039-94f9-9f12d15a8391)
-<p align="center">
-# Bin_lib.py
 
+<p align="center">
 A minimal python library for binary numbers.  
 </p>
 
 
 ![gettingstarted](https://github.com/nonn-a/bin_lib.py/assets/86384221/71e402fd-b1c7-41ba-a788-536125636d01)
 
-### Dependencies
-
+<p align="center">
+**Dependencies**
+<\p>
 * Python 3.
 
-### Installing
+<p align="center">
+**Installing**
+<\p>
 
 * **Download** the file `bin_lib.py`
 * **Place** it in the same folder of your main code.
