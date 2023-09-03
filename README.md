@@ -32,13 +32,10 @@ A minimal python library for binary numbers.
 | `Bin([True, True, False])` | 110           |
 
 ### **Operations and comparisons**
-`Bin` objects can be added and compared to other `Bin`, `int` or appropriate `list` objects.
-
+`Bin` objects can be added and compared to other `Bin`, `int` or appropriate `list` objects.  
 Any comparison works fine (`<, <= , ==, =>, >, !=`).
 
 ### **Artificial lenght**
-This can be used to solve some nieche problems.
-
-You can make your Bin numbers have a maximum lenght.
-
+This can be used to solve some nieche problems.  
+You can make your Bin numbers have a maximum lenght.  
 For example, `Bin(64, 2)` will give an `OverflowError` because 64 doesn't fit in `2` bits.
