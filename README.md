@@ -2,8 +2,8 @@
 ------------------------------------------------------------------------------
 # Bin_lib.py
 
-A small python library for binary numbers.
-
+A minimal python library for binary numbers.
+------------------------------------------------------------------------------
 ## Getting Started
 
 ### Dependencies
@@ -16,18 +16,23 @@ A small python library for binary numbers.
 * **Place** it in the same folder of your main code.
 * **Import** with `import "bin_lib.py"`.
 * **Done**.
+------------------------------------------------------------------------------
+## Defining a Bin variable.
 
-### Defining a Bin variable.
-
-**Examples of definitions.**
+### **Examples of definitions.**
 
 | Definition                 | Output        |
-| -------------              | ------------- |
+| -------------------------- | ------------- |
 | `Bin(6)`                   | 110           |
 | `Bin([1, 1, 0])`           | 110           |
 | `Bin([True, True, False])` | 110           |
 
-**Artificial lenght**
+### **Operations and comparisons**
+`Bin` objects can be added and compared to other `Bin`, `int` or appropriate `list` objects.
+
+Any comparison works fine (`<, <= , ==, =>, >, !=`).
+
+### **Artificial lenght**
 This can be used to solve some nieche problems.
 
 You can make your Bin numbers have a maximum lenght.
