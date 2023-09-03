@@ -8,7 +8,6 @@ A minimal python library for binary numbers.
 
 ![gettingstarted](https://github.com/nonn-a/bin_lib.py/assets/86384221/71e402fd-b1c7-41ba-a788-536125636d01)
 
-
 <p align="center">
 <strong>Installing.</strong>
 </p>
@@ -21,6 +20,10 @@ A minimal python library for binary numbers.
 ---
 
 ![technicalities](https://github.com/nonn-a/bin_lib.py/assets/86384221/f84e4219-5da6-4786-948d-60babe45ecf7)
+
+<p align="center">
+<strong>Documentation.</strong> Complete explaination of the code.
+</p>
 
 ## Defining a Bin variable.
 
