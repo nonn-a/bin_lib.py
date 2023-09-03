@@ -10,7 +10,7 @@ A minimal python library for binary numbers.
 
 ### Dependencies
 
-* **Python 3**-
+* Python 3.
 
 ### Installing
 
