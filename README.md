@@ -18,6 +18,10 @@ A minimal python library for binary numbers.
 * **Import** with `import "bin_lib.py"`.
 * **Done**.
 
+---
+
+![technicalities](https://github.com/nonn-a/bin_lib.py/assets/86384221/f84e4219-5da6-4786-948d-60babe45ecf7)
+
 ## Defining a Bin variable.
 
 ### **Examples of definitions.**
