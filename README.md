@@ -24,7 +24,7 @@ A minimal python library for binary numbers.
 | Definition                 | Output        |
 | -------------------------- | ------------- |
 | `Bin(6)`                   | 110           |
-| `Bin([1, 1, 0])`           | 110           |
+| `Bin([1, 1, 0])`           | 110           |
 | `Bin([True, True, False])` | 110           |
 
 ### **Operations and comparisons**
