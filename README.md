@@ -68,3 +68,8 @@ bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out o
 The `lenght` of the addition result is the biggest of the addends' lenghts.  
 **>** `Bin` objects can be compared to other `BinAlike` objects.  
 Supported comparisons: `==, !=, <, <=, =>, >`.  
+
+### Conclusion.
+Feel free to explore the capabilities of the `Bin` class and integrate it into your projects as needed. Should you have any questions or encounter issues, refer to the provided documentation and MIT License for usage terms. Support this project by contributing to its development.
+
+**Happy coding with binary data using bin_lib.py!**
