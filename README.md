@@ -5,7 +5,6 @@
 A minimal python library for binary numbers.
 
 ------------------------------------------------------------------------------
-
 ## Getting Started
 
 ### Dependencies
@@ -20,7 +19,6 @@ A minimal python library for binary numbers.
 * **Done**.
 
 ------------------------------------------------------------------------------
-
 ## Defining a Bin variable.
 
 ### **Examples of definitions.**
