@@ -21,7 +21,7 @@ A small python library for binary numbers.
 
 | First Header  | Second Header |
 | ------------- | ------------- |
-| Bin(2)        |       110     |
+| `Bin(2)`        |      110      |
 | Content Cell  | Content Cell  |
 
 ```
