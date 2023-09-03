@@ -61,7 +61,7 @@ bin4 = Bin(2, length = 3) #Value: 10. This works because 2 occupies just 2 out o
             [···]
 ```
 **>** `get_bit`Returns bits **as a list** from index a to b. If b is -1, only the bit at index a is returned.  
-.. If b is provided, it returns a list of bits from a to b.  
+___ If b is provided, it returns a list of bits from a to b.  
 
 ### Operations and comparisons.
 **>** At the moment `Bin` objects can be added to other `BinAlike` objects.  
