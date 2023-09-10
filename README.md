@@ -71,7 +71,7 @@ Supported comparisons: `==, !=, <, <=, =>, >`.
 
 ### Small code example.
 ```py
-import bin_lib #Importing the library
+from bin_lib import * #Importing the library. Since it has so little code, it's fine to import *.
 
 bin_1, bin_2 = Bin(45), Bin([0, 1, 0, 1]) #Binary number definitions.
 if bin_2 < bin_1 < [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: #(Bin, Bin) and (Bin, list) comparisons.
