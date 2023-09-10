@@ -16,7 +16,7 @@ No specific installation is required for **bin_lib.py**. You can use it by impor
 
 **>** **Download** the file `bin_lib.py`.  
 **>** **Place** it in the same folder of your main code.  
-**>** **Import** with `import "bin_lib.py"`.  
+**>** **Import** with `import bin_lib.py`.  
 **>** **Done**.  
 
 ---
@@ -71,7 +71,7 @@ Supported comparisons: `==, !=, <, <=, =>, >`.
 
 ### Small code example.
 ```py
-import "bin_lib.py" #Importing the library
+import bin_lib.py #Importing the library
 
 bin_1, bin_2 = Bin(45), Bin([0, 1, 0, 1]) #Binary number definitions.
 if bin_2 < bin_1 < [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]: #(Bin, Bin) and (Bin, list) comparisons.
