@@ -16,7 +16,7 @@ No specific installation is required for **bin_lib.py**. You can use it by impor
 
 **>** **Download** the file `bin_lib`.  
 **>** **Place** it in the same folder of your main code.  
-**>** **Import** with `import bin_lib.py`.  
+**>** **Import** with `import bin_lib`.  
 **>** **Done**.  
 
 ---
